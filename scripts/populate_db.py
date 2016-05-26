@@ -5,7 +5,7 @@ import os
 file_name = input("Please enter the file name: ")
 if len (file_name) < 1:
     file_name = os.path.normpath(r"C:/Users/ting/Downloads/Ccode_dump.txt")
-    file_name =("C:\\Users\\ting\\Downloads\\Ccode_dump.txt")
+    file_name =("/home/ubuntu/workspace/Dropbox/Taxonomy/names.dmp")
 
 print (file_name)    
 
