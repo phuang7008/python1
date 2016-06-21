@@ -27,7 +27,7 @@ print("Mathematical operations can be done using scalars and functions. d/3 \n",
 # Values on either Series that did not have a shared index will produce a NULL/NaN (not a number). NULL checking is done with isnull() and notnull().
 print(d[['Chicago', 'New York', 'Portland']], "\n");    print(d[['Austin', 'New York']], "\n");   
 print(d[['Chicago', 'New York', 'Portland']] + d[['Austin', 'New York']])   # both Series have 'New York', so its value combined. All others will be NaN
-print("Test null using isnull()\n", d[d.isnull()])
+print("Test null using isnull()\n", d[d.isnull()]); 
 print()
 
 # Data Frame
