@@ -1,5 +1,5 @@
 #!/home/ubuntu/workspace/local/bin/python
-# https://mkaz.tech/python-argparse-cookbook.html
+# https://mkaz.blog/code/python-argparse-cookbook/
 
 # use the traditional C type argument passing: sys.argv array (list) which contains all the argument passed in
 '''
